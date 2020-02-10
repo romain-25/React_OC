@@ -54,13 +54,13 @@ class Search extends React.Component {
              this.setState({
                  films: []
              }, () => {
-                 console.log("Page : " + this.page + " / TotalPages : " + this.totalPages + " / Nombre de films : " + this.state.films.length)
              this._loadFilms()
              })
          }
 
          _displayDetailForFilm = (idFilm) => {
-          console.log("Display film with id " + idFilm)
+          this.props.navigation.navigate("FilmDetail", { idFilm: idFilm })
+
       }
   
     render() {
