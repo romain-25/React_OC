@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Applications/MAMP/htdocs/React_OC/MoviesAndMe/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "/Users/romain/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/2c4cb48ffc66cf474b7b89f70c9e2f1d/res/values-v28/values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,447",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,442,684"
+                    }
+                }
+            ]
+        }
+    ]
+}

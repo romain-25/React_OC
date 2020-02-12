@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Applications/MAMP/htdocs/React_OC/MoviesAndMe/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/romain/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/f8eb1aa6f9a736a6abe737148cd168af/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/romain/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/2c4cb48ffc66cf474b7b89f70c9e2f1d/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
