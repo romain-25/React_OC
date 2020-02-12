@@ -4,6 +4,7 @@ import { getFilmDetailFromApi, getImageFromApi } from '../API/TMDBApi'
 import moment from 'moment'
 import numeral from 'numeral'
 import { connect } from 'react-redux'
+import EnlargeShrink from '../Animations/EnlargeShrink'
 
 class FilmDetail extends React.Component {
 
@@ -94,14 +95,19 @@ class FilmDetail extends React.Component {
 
   _displayFavoriteImage() {
     var sourceImage = require('../Images/ic_favorite_border.png')
+    var shouldEnlarge = false
     if (this.props.favoritesFilm.findIndex(item => item.id === this.state.film.id) !== -1) {
       sourceImage = require('../Images/ic_favorite.png')
+      shouldEnlarge = true
     }
     return (
-      <Image
-        style={styles.favorite_image}
-        source={sourceImage}
-      />
+      <EnlargeShrink
+        shouldEnlarge={shouldEnlarge}>
+        <Image
+          style={styles.favorite_image}
+          source={sourceImage}
+        />
+      </EnlargeShrink>
     )
   }
 
@@ -116,9 +122,9 @@ class FilmDetail extends React.Component {
           />
           <Text style={styles.title_text}>{film.title}</Text>
           <TouchableOpacity
-            style={styles.favorite_container}
-            onPress={() => this._toggleFavorite()}>
-            {this._displayFavoriteImage()}
+              style={styles.favorite_container}
+              onPress={() => this._toggleFavorite()}>
+              {this._displayFavoriteImage()}
           </TouchableOpacity>
           <Text style={styles.description_text}>{film.overview}</Text>
           <Text style={styles.default_text}>Sorti le {moment(new Date(film.release_date)).format('DD/MM/YYYY')}</Text>
@@ -190,10 +196,15 @@ const styles = StyleSheet.create({
     margin: 5,
     marginBottom: 15
   },
-  default_text: {
+  default_text: {
     marginLeft: 5,
     marginRight: 5,
     marginTop: 5,
+  },
+  favorite_image:{
+    flex: 1,
+    width: null,
+    height: null
   },
   share_touchable_floatingactionbutton: {
     position: 'absolute',
@@ -201,17 +212,17 @@ const styles = StyleSheet.create({
     height: 60,
     right: 30,
     bottom: 30,
+    borderRadius: 30,
     backgroundColor: '#e91e63',
     justifyContent: 'center',
     alignItems: 'center'
   },
+  share_touchable_headerrightbutton: {
+    marginRight: 8
+  },
   share_image: {
     width: 30,
     height: 30
-  },
-  favorite_image: {
-    width: 40,
-    height: 40
   }
 })
 
