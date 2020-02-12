@@ -40,10 +40,7 @@ target 'MoviesAndMe' do
 
   # Automatically detect installed unimodules
   use_unimodules!
-  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
-  pod 'RNScreens', :path => '../node_modules/react-native-screens'
 
-  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
 
 end
