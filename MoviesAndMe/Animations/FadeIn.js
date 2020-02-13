@@ -18,7 +18,7 @@ class FadeIn extends React.Component {
       }
     ).start()
   }
-
+  
   render() {
     return (
       <Animated.View

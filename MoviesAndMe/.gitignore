@@ -1,1 +1,8 @@
 
+node_modules/
+ios/
+.expo/
+.expo-shared/
+.vscode/
+ios/
+android/

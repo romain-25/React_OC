@@ -5,6 +5,75 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>51E069C2-F19A-4F56-A6C3-6BB971E78050</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>51E069C2-F19A-4F56-A6C3-6BB971E78050.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MoviesAndMe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MoviesAndMe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace MoviesAndMe with scheme MoviesAndMe and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>603281980.16215599</real>
+			<key>timeStoppedRecording</key>
+			<real>603281981.279387</real>
+			<key>title</key>
+			<string>Building workspace MoviesAndMe with scheme MoviesAndMe and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>51E069C2-F19A-4F56-A6C3-6BB971E78050</string>
+		</dict>
+		<key>62CF8741-FDA9-40B8-9CA4-2ADE53D4BB0C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>62CF8741-FDA9-40B8-9CA4-2ADE53D4BB0C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MoviesAndMe project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MoviesAndMe</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace MoviesAndMe with scheme MoviesAndMe and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>603281568.60922503</real>
+			<key>timeStoppedRecording</key>
+			<real>603281570.11750305</real>
+			<key>title</key>
+			<string>Building workspace MoviesAndMe with scheme MoviesAndMe and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>62CF8741-FDA9-40B8-9CA4-2ADE53D4BB0C</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
